@@ -1,0 +1,37 @@
+# Ignore virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables or config
+.env
+
+# IDE/editor specific files
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Allow .txt files in the data folder
+data/*
+!data/*.txt
+
+# Test artifacts
+*.pytest_cache/
+tests/__pycache__/
+tests/test_file.txt
+tests/test_file.pdf
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
